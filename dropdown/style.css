@@ -1,0 +1,18 @@
+ul{
+    list-style: none;
+}
+.hiii{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+}
+.qqq{
+    display: none;
+}
+li{
+    padding: 25px;
+}
+
+.ul :hover .qqq{
+    display: block;
+}

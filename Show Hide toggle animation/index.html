@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <button id="show-hidden-menu">Click Me!</button>
+    <div class="hidden-menu">
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $('#show-hidden-menu').click(function () {
+                $('.hidden-menu').slideToggle("slow");
+            });
+        });
+    </script>
+
+    <div class="new">
+
+        <button id="button">Help Me</button>
+        <div id="menu">
+            <ul>
+                <li>hiiii</li>
+                <li>hiiii</li>
+                <li>hiiii</li>
+                <li>hiiii</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.new #button').click(function () {
+                $('.new #menu').slideToggle("slow");
+            });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="boxer">
+        <div class="box1">press me</div>
+    </div>
+    <div class="wrap">
+        <div class="box5"></div>
+    </div>
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $('.box1').on('click', function () {
+            $('.box5').fadeToggle("slow");
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <input type="button" value="click here" id="click_here_button" />
+
+
+    <script>
+        var always_callback = function (event) {
+            $("body").append("<p>clicked again<p>");
+        };
+        $("#click_here_button").click(always_callback);
+        var once_callback = function (event) {
+            $("body").append("<p>clicked only once<p>");
+        };
+        $("#click_here_button").one("click", once_callback);
+
+    </script>
+
+</body>
+
+</html>

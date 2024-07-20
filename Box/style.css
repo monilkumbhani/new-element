@@ -1,0 +1,46 @@
+.hidden {
+    display: none;
+    padding: 250px;
+}
+
+div.red {
+    background: gray;
+    background-color: blanchedalmond;
+    background: url(1.png);
+    background-size: cover;
+    opacity: 0.8;
+    height: 600px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color: brown;
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 700px;
+}
+.div{
+    padding: 8px;
+    margin: 5px;
+
+}
+.name{
+    padding: 8px;
+    color: blue;
+    margin: 5px;
+}
+
+header{
+    color: blueviolet;
+    cursor: pointer;
+}
+label{
+    color: aquamarine;
+    cursor: pointer;
+}
+input[type="text"]{
+    padding: 2px;
+}

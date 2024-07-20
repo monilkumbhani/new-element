@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.0/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="style.js">
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <p class="imglist">
+    <a href="IMG_20220608_192848_427.jpg" data-fancybox="group" data-caption="This image has a caption 1">
+      <img src="IMG_20220608_192848_427.jpg" /></a>
+
+    <a href="20230308_190424.jpg" data-fancybox="group" data-caption="This image has a caption 2">
+      <img src="20230308_190424.jpg" /></a>
+
+    <a href="1652631669155.jpg" data-fancybox="group" data-caption="This image has a caption 3">
+      <img src="1652631669155.jpg" /></a>
+
+    <a href="IMG_20220608_192848_427.jpg" data-fancybox="group" data-caption="This image has a caption 4">
+      <img src="20230308_190424(1).jpg" /></a>
+  </p>
+  <script>
+
+    $('[data-fancybox]').fancybox
+      ({
+        wheel: true,
+        transitionEffect: "slide",
+        thumbs: false,
+        hash: false,
+        loop: true,
+        keyboard: true,
+        toolbar: false,
+        animationEffect: false,
+        arrows: true,
+        clickContent: false
+      });
+
+  </script>
+</body>
+
+</html>

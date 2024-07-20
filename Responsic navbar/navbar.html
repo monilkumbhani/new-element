@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="topnav" id="myTopnav">
+                <img src="image/logo.png">
+                <div class="menu">
+                    <a href="index.html">Home</a>
+                    <a href="our-shop.html">Our Shop</a>
+                    <a href="product-details.html">Product Details</a>
+                    <a href="countects-us.html">Countects Us</a>
+                    <a href="#">SING IN</a>
+                </div>
+
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+           
+
+        <script>
+            $(document).ready(function() {
+                $(".topnav .icon").click(function(){
+                    $(".topnav .menu").toggle();
+                });
+            })
+        </script>
+
+
+    </header>
+</body>
+
+</html>

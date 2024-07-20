@@ -1,0 +1,81 @@
+.hidden-menu{
+    display: none;
+}
+
+button{
+    padding: 25px;
+    background-color: brown;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+}
+
+
+#menu{
+    display: none;
+}
+
+.new{
+    margin-top: 50px;
+}
+
+/* new */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box1 {
+	margin: 10px;
+	background: rgb(93, 49, 41);
+	padding: 50px;
+	text-align: center;
+	color: white;
+}
+.box5  {
+	display:none;
+	margin: 10px;
+	padding: 50px;
+	background: rgb(26, 202, 20);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="col-sm-6">
+        <button data-div-id="1" class="button">Show Div 1</button>
+        <button data-div-id="2" class="button">Show Div 2</button>
+    </div>
+
+    <div class="col-sm-6">
+        <div id="div1" class="hidden">Showing Div 1</div>
+        <div id="div2" class="hidden">Showing Div2</div>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.button').on('click', function () {
+                var div_id = $(this).attr('data-div-id');
+                $('#div' + div_id).css('visibility', 'visible');
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

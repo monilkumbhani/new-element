@@ -1,0 +1,67 @@
+a {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    color: brown;
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 700px;
+}
+
+.div {
+    padding: 8px;
+    margin: 5px;
+
+}
+
+.name {
+    padding: 8px;
+    color: blue;
+    margin: 5px;
+}
+
+header {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+label {
+    color: aquamarine;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 2px;
+}
+
+.background {
+    background: url(image/1.png);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    margin: 50px auto;
+}
+
+#background{
+    display: none;
+}
+.cancel{
+    color: azure;
+    float: right;
+}
+
+.cancel button{
+    background-color: brown;
+    border: none;
+}
+
+.cancel button:hover{
+    background-color: rgb(222, 150, 150);
+    border: none;
+}
+
+.cancel button:hover .background{
+    display: none;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <div class="button">
+        <button id="button">Click me</button>
+    </div>
+
+
+
+    <div class="form" id="form">
+        <div class="background" id="background">
+            <form action="auction.php" id="form">
+                <div class="cancel">
+                    <button><i style="font-size:24px" class="fa">&#xf00d;</i></button>
+                   
+                </div>
+                <div class="div">
+                    <input type="text" placeholder="your name" name>
+                    <input type="text" placeholder="first name">
+                </div>
+                <div class="div">
+                    <input type="text" placeholder="middal name">
+                    <input type="text" placeholder="last name">
+                </div>
+
+                <div class="name">
+                    <select>
+                        <option>car</option>
+                        <option>Bus</option>
+                        <option>Car-Bus-Trian_rail-Gadi</option>
+                        <option>Bus-Car-Trn</option>
+                        <option>car-Dog_cat-Lion</option>
+                        <option>car-rsg-fdxg-grdxzrg</option>
+                    </select>
+                    <button>click me!</button>
+                </div>
+
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#button").click(function () {
+                $("#background").toggle();
+            });
+        });
+    </script>
+
+</body>
+
+</html>

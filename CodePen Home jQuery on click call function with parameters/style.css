@@ -1,0 +1,10 @@
+
+
+.hidden {
+  visibility: hidden;
+  background-color: #5c645e;
+  color: #ffffff;
+  width: 10%;
+  margin: 5px;
+  padding: 15px;
+}
